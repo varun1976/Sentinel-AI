@@ -1,0 +1,49 @@
+# Python & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environments & Virtual Envs
+venv/
+.venv/
+env/
+ENV/
+
+# Trained ML Model Artifacts (keep .gitkeep)
+backend/models/*.pkl
+backend/models/*.json
+!.gitkeep
+
+# Node & Frontend
+node_modules/
+**/node_modules/
+dist/
+build/
+.vite/
+.eslintcache
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs & OS System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary Media & Generated Files
+.tempmediaStorage/
+.system_generated/
+scratch/

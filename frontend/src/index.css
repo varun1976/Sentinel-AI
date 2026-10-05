@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #090D14;
+    color: #F8FAFC;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #090D14;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1E2638;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0EA5E9;
+  }
+}
+
+@layer utilities {
+  .subtle-border {
+    border-color: rgba(255, 255, 255, 0.07);
+  }
+
+  .subtle-bg {
+    background-color: rgba(18, 24, 36, 0.6);
+  }
+
+  .subtle-divider {
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+}
